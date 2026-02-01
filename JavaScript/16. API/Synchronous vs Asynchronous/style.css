@@ -1,0 +1,11 @@
+.formate{
+    color : white; 
+    background-color : green; 
+    font-family : cursive; 
+    text-align : center; 
+}
+
+.name{
+    border: 2px solid red;
+    cursor : pointer;
+}

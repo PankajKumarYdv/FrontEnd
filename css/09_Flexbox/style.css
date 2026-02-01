@@ -1,0 +1,16 @@
+.box{
+    border : 5px solid red;
+    display : flex;  
+}
+
+.top{
+    border : 5px solid blue; 
+}
+
+.middle{
+    border : 5px solid yellow;
+}
+
+.bottom{
+    border : 5px solid green;
+}

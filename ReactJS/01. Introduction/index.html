@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!-- 
+Reason to use ReactJS: 
+- THis is a normal way of creating webpage, Where DOM Manipulation is very dificult.
+- javascript is a 'Imperative Programming' based language; 
+        1. Focuses on how to achieve a desired state by providing step-by-step instructions.
+        2. Involves directly manipulating the Document Object Model (DOM) to update the UI.
+        3. Requires specifying the sequence of actions needed to modify the UI.
+
+- ReactJS is a 'Declarative Programming ' 
+        1. Focuses on what the desired state of the UI should be, without dictating the exact steps.
+        2. Describes the UI based on its current data or state, and React handles the underlying updates to the DOM.
+        3. You express the UI's appearance as a function of its state, and React efficiently renders the necessary changes.
+        4. Example: In React, you define a component's JSX to represent the UI, and when the component's state or props change, React automatically re-renders the component to reflect the new state.
+        
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction </title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <section>
+        <div class = 'basket-1'>
+            <h1><span> 0</span> Apples</h1>
+            <p>Basket 1 </p>
+        </div>
+
+        <button class = 'left-arrow'>
+            <img src="./images/left-arrow.png">
+        </button>
+
+        <button class = 'right-arrow'>
+            <img src="./images/right-arrow.png">
+        </button>
+
+        <div class = 'basket-2'>
+            <h1><span> 0</span> Apples</h1>
+            <p>Basket 2</p>
+        </div>
+    </section>
+</body>
+</html>

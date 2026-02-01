@@ -1,0 +1,32 @@
+* {
+    box-sizing : border-box; 
+    /* background-color : black;  */
+    
+}
+
+.heading {
+    display : flex; 
+    border : 2px solid red; 
+    text-decoration : none; 
+}
+
+.heading ul {
+    border : 2px solid red;
+    list-style-type : none; 
+    display : flex;
+}
+
+.heading li {
+    padding : 1vh;
+}
+
+.heading a {
+    text-decoration : none;
+    border : 2px solid red;
+    padding-left : 5px;
+    padding-right : 5px;
+}
+
+.nav {
+    alight
+}
