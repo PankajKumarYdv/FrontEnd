@@ -1,0 +1,22 @@
+{
+  "name": "07.-barbel-cl",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel ./script.js -d lib --watch"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.28.6",
+    "@babel/core": "^7.29.0",
+    "@babel/preset-env": "^7.29.0"
+  },
+  "dependencies": {
+    "@babel/preset-react": "^7.28.5",
+    "D": "^1.0.0"
+  }
+}
